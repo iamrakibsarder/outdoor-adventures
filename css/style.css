@@ -1,0 +1,474 @@
+/*Google Font Link*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap');
+/*Global CSS Start*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p,span,input,li{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/*Header Section Start*/
+header{
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6) ), url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+nav{}
+nav a img{
+  width: 55%;
+}
+.navbar-brand img{
+
+}
+nav ul{
+
+}
+.navbar-light .navbar-nav .active>.nav-link{
+  color: #fb2056 !important;
+}
+nav ul li{
+
+}
+.nav-item{
+
+}
+.nav-link{
+  color: white !important;
+  padding: 0 25px !important;
+  height: 45px;
+  line-height: 45px;
+  transition: 0.5s ease-in-out;
+  font-weight: 600;
+
+
+}
+.nav-link:hover{
+  color: #fb2056 !important;
+  transition: 0.5s ease-in-out;
+}
+nav ul li a{
+
+}
+nav button{}
+.take-action{
+  color: white !important;
+  padding: 10px 30px !important;
+  background: #fb2056;
+  border: 2px solid #fb2056;
+  border-radius: 30px;
+  transition: 0.5s ease-in-out;
+  font-weight: 600;
+}
+.take-action:hover{
+  color: white;
+  background-color: transparent;
+  border: 2px solid #fb2056;
+  transition: 0.5s ease-in-out;
+
+}
+/*Header Section End*/
+
+
+/*Banner Section Start*/
+
+
+.banner{
+
+text-align: center;
+
+color: white;
+
+padding: 150px 0;
+}
+.banner .hero-text{
+
+}
+.banner .hero-text h3{
+  
+margin-bottom: 15px;
+}
+.banner .hero-text .lines{
+  
+width: 9%;
+  
+height: 3px;
+  
+margin: 0 auto;
+  
+background: #fb2056;
+}
+.banner .hero-text h1{
+  
+font-size: 60px;
+  
+font-weight: 600;
+  
+margin: 30px;
+}
+.banner .hero-text .cta{
+  
+}
+.banner .learn-more{
+  color: white !important;
+  padding: 10px 30px !important;
+  background: #fb2056;
+  border: 2px solid #fb2056;
+  border-radius: 30px;
+  transition: 0.5s ease-in-out;
+  font-weight: 600;
+}
+.banner .learn-more:hover{
+   color: white;
+  background-color: transparent;
+  border: 2px solid #fb2056;
+  transition: 0.5s ease-in-out;
+}
+
+
+
+
+
+
+/*Banner Section End*/
+
+
+/*Review Section Start*/
+.review{
+  padding: 50px 0;
+  background: #e4e4e4;
+  text-align: center;
+  color: #333;
+}
+.review .review-body{
+  
+}
+.review .review-body .quote{
+  margin-bottom: 30px;
+}
+.review .review-body .quote img{
+  
+width: 100px;
+}
+.review .review-body .quote p{
+  
+}
+/*Review Section End*/
+
+
+/*Events Section CSS Start*/
+
+
+.events{
+    padding: 60px 0;
+}
+.events .event-title{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.events .event-title h1{
+    font-weight: 700;
+}
+.events .lines{
+  width: 9%;
+  height: 3px;
+  margin: 0 auto;
+  background: #fb2056;
+}
+.events .events-gallary{}
+.events .events-gallary .events-body{
+    padding: 50px 35px;
+    text-align: center;
+}
+.events .events-gallary .events-body .event-img{
+    margin-bottom: 20px;
+}
+.events .events-gallary .events-body .event-img img{
+    border-radius: 5px;
+}
+.events .events-gallary .events-body h5{
+    font-weight: 600;
+    padding: 20px 0 10px 0;
+}
+.events .events-gallary .events-body p{
+    font-size: 16px;
+    color: #333;
+    font-weight: 300;
+}
+
+.events .events-gallary .events-body .learn-more{
+  color: white !important;
+  padding: 10px 30px !important;
+  background: #fb2056;
+  border: 2px solid #fb2056;
+  border-radius: 30px;
+  transition: 0.5s ease-in-out;
+  font-weight: 600;
+}
+.events .events-gallary .events-body .learn-more:hover{
+   color: black !important;
+  background-color: transparent;
+  border: 2px solid #fb2056;
+  transition: 0.5s ease-in-out;
+}
+
+/*Events Section CSS End*/
+
+
+/*Explore Section CSS Start*/
+
+
+.explore{
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6) ), url(../img/banner02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.explore .explore-body{
+    padding: 200px 0;
+    color: white;
+}
+.explore .explore-body h2{
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.explore .explore-body .lines{
+  width: 15%;
+  height: 3px;
+  background: #fb2056;
+}
+.explore .explore-body p{
+    padding: 30px 0;
+    color: white;
+    line-height: 2;
+}
+.explore .explore-body .learn-more{
+  color: white !important;
+  padding: 10px 30px !important;
+  background: #fb2056;
+  border: 2px solid #fb2056;
+  border-radius: 30px;
+  transition: 0.5s ease-in-out;
+  font-weight: 600;
+}
+.explore .explore-body .learn-more:hover{
+  color: white !important;
+  background-color: transparent;
+  border: 2px solid #fb2056;
+  transition: 0.5s ease-in-out;
+}
+
+
+/*Explore Section CSS End*/
+
+
+/*Tour Section CSS Start*/
+
+
+.tour{
+  padding: 80px 0;
+}
+.tour .tour-body{}
+.tour .tour-body h1{
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.tour .tour-body .lines{
+  width: 15%;
+  height: 3px;
+  background: #fb2056;
+}
+.tour .tour-body p{
+    padding: 30px 20px 30px 0;
+    color: black;
+    line-height: 2;
+}
+.tour .tour-body .learn-more{
+  color: white !important;
+  padding: 10px 30px !important;
+  background: #fb2056;
+  border: 2px solid #fb2056;
+  border-radius: 30px;
+  transition: 0.5s ease-in-out;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.tour .tour-body .learn-more:hover{
+  color: black !important;
+  background-color: transparent;
+  border: 2px solid #fb2056;
+  transition: 0.5s ease-in-out;
+}
+.tour .upcoming-gallary{
+    padding: 5px;
+}
+.tour .upcoming-gallary img{
+    border-radius: 5px;
+}
+
+
+
+/*Tour Section CSS End*/
+
+
+/*Footer Section CSS Start*/
+
+footer{
+  background-color: #191919;
+  padding: 40px;
+  text-align: center;
+  color: white;
+}
+footer .main-text{}
+footer .main-text p{}
+footer .copyright{}
+footer .copyright p{}
+
+
+/*Footer Section CSS End*/
+
+
+
+
+        /*Media Query*/
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 991px) and (max-width: 1280px) {
+  
+  header {
+    height: 60vh;
+}
+.take-action {
+    padding: 10px 15px !important;
+}
+.banner {
+    padding: 150px 0;
+}
+.explore {
+    height: 55vh;
+}
+.tour .tour-body h1 {
+    font-size: 32px;
+}
+.tour .tour-body p {
+    padding: 20px 0;
+    line-height: 1.5;
+}
+.tour .tour-body {
+    padding: 40px 0;
+    text-align: left !important;
+}
+.explore .explore-body {
+    text-align: left !important;
+    padding: 100px 0;
+}
+
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 990px) {
+  header {
+    height: 70vh;
+}
+  .take-action {
+    padding: 10px 15px !important;
+    width: 20%;
+}
+  .banner {
+    padding: 150px 0;
+}
+.explore {
+    height: 55vh;
+}
+.explore .explore-body {
+    padding: 100px 0;
+}
+.tour .tour-body h1 {
+    font-size: 32px;
+
+}
+.tour .tour-body p {
+    padding: 20px 0;
+    line-height: 1.5;
+}
+.tour .tour-body {
+    text-align: left !important;
+}
+.explore .explore-body {
+    text-align: left !important;
+}
+.tour .upcoming-gallary {
+    margin-top: 35px;
+}
+
+
+
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.banner .hero-text h1 {
+    font-size: 40px;
+}
+.explore .explore-body {
+    text-align: center;
+}
+.explore .explore-body .lines {
+    margin: 0 auto;
+}
+
+
+
+  .tour .tour-body {
+    text-align: center !important;
+}
+  .tour .tour-body .lines {
+    margin: 0 auto;
+}
+
+
+
+}
